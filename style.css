@@ -1,0 +1,111 @@
+html {
+	height: 100%;
+	background: url('crystals.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+button {
+	margin: 20px;
+}
+body{
+	background: none;
+}
+
+#crystalcollectorsgame{
+	color: #5F2CEC;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	background-color: #A8FDE3;
+	padding: 10px;
+	border-style: solid;
+    border-width: 10px;
+}
+
+img{
+	padding: 10px;
+}
+
+p{
+	color: #3F3BAC;
+	margin: 25px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	;
+}
+
+.message{
+	color: #9B0DFA;
+    text-shadow: -2px 0 #5F2CEC, 0 2px #5F2CEC, 2px 0 #5F2CEC, 0 -2px ##5F2CEC;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	
+}
+
+.wins{
+	color: #5F2CEC;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	padding: 10px;
+	font-size: 20px;
+	border-style: solid;
+    border-width: 10px;
+    background-color: #A8FDE3;
+}
+
+.losses{
+	color: #5F2CEC;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	padding: 10px;
+	font-size: 20px;
+	border-style: solid;
+    border-width: 10px;
+    margin-bottom: 30px;
+    background-color: #A8FDE3;
+
+}
+
+#totalscore{
+	color: #5F2CEC;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	padding: 10px;
+	font-size: 20px;
+	border-style: solid;
+    border-width: 10px;
+    background-color: #A8FDE3;
+}
+
+
+
+.crystals{
+	text-align: center;
+	margin-top: 50px;
+
+}
+
+
+.numbers{
+	
+	padding: 25px;
+    margin-top: 10px;
+    color: #34197D;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	letter-spacing: .5px;
+
+	}
+
+	button:hover{
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #FE649C;
+  border: solid 1px #fff;
+  color: #fff;
+}
+

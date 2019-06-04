@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RPG-Game</title>
+	
+	<link rel="stylesheet" href="reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Noticia+Text|Open+Sans&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	 <link rel="stylesheet" href="style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+	
+</head>
+<body>
+	<div class="container text-center">
+  <div class="row">
+		<div class="col-lg-12">
+				<div id="crystalcollectorsgame">Crystal Collectors Game</div>
+
+				<p>You will be given a random number at the start of the game.
+There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+You win the game by matching your total score to random number, you lose the game if your total scoere goes above the random number.</p>
+
+<p>The value of each crystal is hidden from you until you click on it.
+Each time when the game starts, the game will change the values of each crystal.</p>
+			</div>
+		</div>
+	
+		<div class="row">
+			<div class="col-xs-4">
+				<div id="totalscore">Total Score: 0</div>
+			</div>
+			<div class="col-xs-4">
+				<div class="wins">Wins: 0</div>
+			</div>
+			<div class="col-xs-4">
+				<div class="losses">Losses: 0</div>
+			</div>
+		</div>
+				
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="message"></div>
+			</div>
+		</div>
+				<div class="buttons">
+					<button id="red"><img src="Red_Diamond_PNG_Clip_Art_Image.png" alt="ruby  dimond" width="90" height="90"></button>
+					<button id="blue"><img src="Diamonds_PNG_Clip_Art_Image.png" alt="blue dimond" width="90" height="90"></button>
+					<button id="green"><img src="Green_Diamond_PNG_Clip_Art_Image.png" alt="green dimond" width="90" height="90"></button>
+					<button id="purple"><img src="Purple_Diamond_PNG_Clip_Art_Image-1908392122.png" alt="purple dimond" width="90" height="90"></button>
+				</div>
+				
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="numbers">
+						<div id = "randomNumber text-center" class="col-lx-6">
+						</div>
+
+						<h3 class="col-sm-3">Target Score: 
+               <span id='targetScore'>0</span>
+              </h3>
+
+            <h3 class="col-sm-2 ">Your total score is: <span id='yourTotalScore'>0</span>
+              </h3>
+
+			</div>
+				</div>
+			</div>
+		</div>
+<script src="game.js"></script>
+</body>
+</html>
